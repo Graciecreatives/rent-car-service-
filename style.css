@@ -1118,12 +1118,13 @@ color: white;
 .model{
     display: flex;
     width: 95%;
-    justify-content: space-between;
-    padding-top: 20px;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 10px;
     
+}
+.model1 p{
+    font-size: 11px;
 }
 
 .theoffer1{
@@ -1176,7 +1177,7 @@ color: white;
 }
 
 .Earnwithus{
-    padding-left: 20px;
+    padding-left: 0;
     background: linear-gradient(rgba(1, 12, 97, 0.782), rgba(1,12,97,0.782)), url(drive.b72e6f2d1ccdbd6550a9.jpg);
     background-position: center;
     padding-top: 100px;
@@ -1184,10 +1185,10 @@ color: white;
     justify-content: space-between;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-right: 20px;
+    padding-right: 0;
     align-items: center;
-    padding-bottom: 100px;
-    height: 150px;
+    padding-bottom: 60px;
+    height: 80px;
     width: 100%;
 
     
@@ -1195,7 +1196,7 @@ color: white;
 
 
 .earnwith h4{
-    font-size: 30px;
+    font-size: 18px;
     line-height: 30px;
    
 }
@@ -1257,13 +1258,13 @@ color: white;
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    margin-left: 50px;
+   
 }
 /**------------------------------**/
 .exploreblog{
     width: 100%;
     background-color: white;
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 20px;
     padding-bottom: 50px;
 }
