@@ -286,6 +286,7 @@ form{
     padding-right: 100px;
     align-items: center;
     padding-bottom: 100px;
+
     
 }
 
@@ -322,9 +323,16 @@ form{
     justify-content: space-between;
     margin-bottom: 20px;
     font-family:"Source Sans 3", sans-serif;
+    width: 100%;
+}
+
+.charact p{
+    display: flex;
+   
 }
 .charact ion-icon{
     color: rgb(249,168,38) ;
+    
 }
 
 .charact1{
@@ -1018,6 +1026,20 @@ color: white;
 
 
 @media (max-width:600px) {
+
+    .charact{
+        display: none;
+        
+    }
+        
+    .charact1{
+        display: none;
+    }
+    
+    .charact1 ion-icon{
+        color: rgb(249,168,38) ;
+    }
+
     .searchbar {
         display: none;
     }
@@ -1030,7 +1052,7 @@ color: white;
     line-height: 50px;
     background-color: #000d6b;
     overflow: hidden;
-    width: 90%;
+    width: 86%;
 
     }
 
@@ -1053,7 +1075,7 @@ color: white;
        }
 
     .type{
-        width: 50%;
+        width: 105%;
         height: 45px;
         display: block;
         padding-right: 52%;
@@ -1077,27 +1099,27 @@ color: white;
     }
 
     form{
-        width: 700px;
+        width: 100%;
        height: 300px;
         padding-top: 0px;
         margin-left: 20px;
     }
     
     .firstform{
-        width: 100%;
+        width: 70%;
         display: block;
         justify-content: space-between;
         margin-bottom: 0px;
     }
     .firstform input{
-        width: 50%;
+        width: 100%;
         height: 30px;
         padding: 5px;
        margin-bottom: 20px;
     }
     
     .firstform button{
-        width: 53%;
+        width: 105%;
         height: 43px;
         padding: 5px;
         border-radius: 5px;
