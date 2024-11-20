@@ -73,7 +73,7 @@
 
     <div class="thirdiv">
         <div class="navlink">
-            <ul>
+            <ul id="menus">
                 <li> <a href="#"> Home </a></li>
                 <li> <a href="#"> About </a></li>
                 <li> <a href="#"> Cars </a></li>
@@ -85,6 +85,8 @@
         <div class="searchbar">
         <input type="search" placeholder="search">
         </div>
+
+        <ion-icon name="menu-outline" onclick="toggleMenu()"></ion-icon>
 
     </div>
 </header>
@@ -668,7 +670,20 @@
 </div>
 
 
+<script>
+    let menus = document.getElementById("menus")
+    menus.style.maxHeight = "0px";
 
+    function toggleMenu() {
+        if (menus.style.maxHeight == "0px") 
+    {
+        menus.style.maxHeight = "300px";
+    }
+    else{
+        menus.style.maxHeight = "0px";
+    }
+    }
+</script>
 
 </body>
 </html>

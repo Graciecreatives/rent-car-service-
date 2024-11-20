@@ -106,6 +106,14 @@ vertical-align: baseline;
     display: flex;
     justify-content: space-between;
     padding-right: 100px;
+    align-items: center;
+   }
+
+   .thirdiv ion-icon{
+    color: white;
+    font-size: 40px;   
+    display: none;
+
    }
 
    .navlink ul {
@@ -1008,7 +1016,41 @@ color: white;
 }
 
 
+
 @media (max-width:600px) {
+    .searchbar {
+        display: none;
+    }
+
+    .navlink ul {
+    position: absolute;
+    flex-direction: column;
+    top: 0px;
+    text-align: left;
+    line-height: 50px;
+    background-color: #000d6b;
+    overflow: hidden;
+    width: 90%;
+
+    }
+
+    #menus{
+        transition: all 0.5s;
+    }
+    .thirdiv{
+        background-color: rgb(0,13,107);
+        height: 30px;
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0px;
+        width: 100;
+       }
+
+    .thirdiv ion-icon{
+        display: block;
+        
+       }
 
     .type{
         width: 50%;
