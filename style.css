@@ -1180,7 +1180,7 @@ color: white;
 
 /**-----------------------------------------**/
 .about{
-    width: 100%;
+    width: 90%;
 }
 
 .Aboutus{
@@ -1193,14 +1193,18 @@ color: white;
     padding-bottom: 50px;
     
 }
+.lor{
+    text-align: justify;
+}
 
 .about-img img{
-    width: 100%;
+    width: 80%;
 
 }
 
 * {
     width: 100%;
+    overflow: hidden;
 }
 
 /**-------------------------------------------Popular Services---------------------------------------------------------------------**/
