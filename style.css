@@ -171,7 +171,7 @@ vertical-align: baseline;
     color: rgb(0,13,107);
     font-weight: bold;
     cursor: pointer;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
    }
 
    .hero-content {
@@ -1174,6 +1174,8 @@ color: white;
     font-size: 30px;
     font-family: sans-serif;
     margin-bottom: 40px;
+    width: 80%;
+    line-height: 50px;
     
 }
 
